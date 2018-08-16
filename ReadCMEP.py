@@ -6,6 +6,7 @@ from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 import os
 import sys
+import json
 
 badMappings=[]
 mappingDict={}
@@ -14,7 +15,7 @@ mappingDict={}
 ##mappingDict[(126.0, 663.38)]="PatientName"
 #mappingDict[(126.65, 643.38)]="PatientAge"
 #mappingDict[(128.65, 626.33)]="PatientSex"
-mappingDict[(127.25,679.63)]='Requisition'
+"""mappingDict[(127.25,679.63)]='Requisition'
 mappingDict[(126.0,663.38)]='Name'
 mappingDict[(126.65,643.38)]='Age'
 mappingDict[(128.65,626.33)]='Sex'
@@ -40,7 +41,11 @@ mappingDict[(298.9,191.65)]='4-Hydroxyphenylacetic'
 mappingDict[(298.9,170.9)]='HPHPA'
 mappingDict[(298.9,150.15)]='4-Cresol'
 mappingDict[(298.9,129.4)]='3-Indoleacetic'
-
+"""
+with open('mapping.json','r') as fp:
+    for line in fp:
+        tempDict=json.loads(line.strip())
+        mappingDict[(tempDict['X'],tempDict['Y'])]=tempDict['Field']
 
 files=os.listdir('Complete Metabolic Energy Profile/')
 files=[file for file in files if 'pdf' in file]
