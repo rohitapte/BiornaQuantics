@@ -45,7 +45,7 @@ mappingDict[(298.9,129.4)]='3-Indoleacetic'
 with open('mapping.json','r') as fp:
     for line in fp:
         tempDict=json.loads(line.strip())
-        mappingDict[(tempDict['X'],tempDict['Y'])]=tempDict['Field']
+        mappingDict[(tempDict['X'],tempDict['Y'],tempDict['Page'])]=tempDict['Field']
 
 files=os.listdir('Complete Metabolic Energy Profile/')
 files=[file for file in files if 'pdf' in file]
@@ -61,17 +61,19 @@ for file in files:
     laparams = LAParams()
     device = PDFPageAggregator(rsrcmgr, laparams=laparams)
     interpreter = PDFPageInterpreter(rsrcmgr, device)
+    currentPage=0
     for page in PDFPage.create_pages(doc):
+        currentPage+=1
         interpreter.process_page(page)
         layout = device.get_result()
         for lt_obj in layout:
             if lt_obj.__class__.__name__=="LTTextBoxHorizontal":
-                boundingBox=(round(lt_obj.bbox[0],2),round(lt_obj.bbox[1],2))
+                boundingBox=(round(lt_obj.bbox[0],2),round(lt_obj.bbox[1],2),currentPage)
                 if boundingBox in mappingDict:
                     temp=mappingDict[boundingBox]
                     valuesDict[temp]=lt_obj.get_text().strip()
-        if len(valuesDict)<4:
-            for key in mappingDict:
+        for key in mappingDict:
+            if key[2]==currentPage:
                 temp=mappingDict[key]
                 if temp not in valuesDict:
                     valuesDict[temp]=""
@@ -84,7 +86,6 @@ for file in files:
                             min_dist = dist
                             valuesDict[temp]=lt_obj.get_text().strip()
 
-        break
     fp.close()
     print("-----------------------")
     print(file)

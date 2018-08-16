@@ -43,7 +43,7 @@ pageCount=0
 pages=PDFPage.create_pages(document)
 for page in pages:
     pageCount+=1
-    if pageCount==1:
+    if pageCount==2:
         # As the interpreter processes the page stored in PDFDocument object
         interpreter.process_page(page)
         # The device renders the layout from interpreter
