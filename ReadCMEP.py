@@ -49,7 +49,7 @@ with open('mapping.json','r') as fp:
 
 files=os.listdir('Complete Metabolic Energy Profile/')
 files=[file for file in files if 'pdf' in file]
-files=files[:10]
+#files=files[:10]
 #files=['CMEP_Anthony Dixon 2018.05.21.pdf']
 for file in files:
     valuesDict = {}
@@ -87,8 +87,7 @@ for file in files:
                             valuesDict[temp]=lt_obj.get_text().strip()
 
     fp.close()
-    print("-----------------------")
-    print(file)
-    for key in valuesDict:
-        print(key+": "+valuesDict[key])
+    with open('output/'+file.replace("pdf","txt"),'w') as output_file:
+        for key in valuesDict:
+            output_file.write(key+": "+valuesDict[key]+'\n')
     #print(file,valuesDict)
