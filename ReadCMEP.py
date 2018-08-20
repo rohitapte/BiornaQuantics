@@ -46,7 +46,7 @@ for file in files:
                 temp=mappingDict[key]
                 if temp not in valuesDict:
                     valuesDict[temp]=""
-                    min_dist = 1000#sys.float_info.max
+                    min_dist = sys.float_info.max
                     for lt_obj in layout:
                         # find the closest one
                         boundingBox = (round(lt_obj.bbox[0], 2), round(lt_obj.bbox[1], 2))
