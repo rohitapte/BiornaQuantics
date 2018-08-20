@@ -7,6 +7,7 @@ from pdfminer.pdfparser import PDFParser
 import os
 import sys
 import json
+import xlsxwriter
 
 badMappings=[]
 mappingDict={}
@@ -61,4 +62,15 @@ for file in files:
     with open('output/'+file.replace("pdf","txt"),'w') as output_file:
         for key in valuesDict:
             output_file.write(key+": "+valuesDict[key]+'\n')
+    workbook = xlsxwriter.Workbook('exceloutput/'+file.replace("pdf","xls"))
+    worksheet = workbook.add_worksheet('measurements')
+    row=0
+    worksheet.write(row, 0, 'Key')
+    worksheet.write(row, 1, 'Value')
+    for key in valuesDict:
+        row+=1
+        worksheet.write(row, 0, key)
+        worksheet.write(row, 1, valuesDict[key])
+    workbook.close
+
     #print(file,valuesDict)
