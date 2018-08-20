@@ -12,7 +12,7 @@ import xlsxwriter
 badMappings=[]
 mappingDict={}
 
-with open('mapping.json','r') as fp:
+with open('pdf_mapping.json','r') as fp:
     for line in fp:
         tempDict=json.loads(line.strip())
         mappingDict[(tempDict['X'],tempDict['Y'],tempDict['Page'])]=tempDict['Field']
@@ -71,6 +71,7 @@ for file in files:
         row+=1
         worksheet.write(row, 0, key)
         worksheet.write(row, 1, valuesDict[key])
-    workbook.close
+    workbook.close()
+    break
 
     #print(file,valuesDict)
