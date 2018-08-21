@@ -1,84 +1,84 @@
-{"X": 127.25, "Y": 679.63, "Field": "Requisition", "Page":1}
-{"X": 126.0, "Y": 663.38, "Field": "Name", "Page":1}
-{"X": 126.65, "Y": 643.38, "Field": "Age", "Page":1}
-{"X": 128.65, "Y": 626.33, "Field": "Sex", "Page":1}
-{"X": 438.0, "Y": 679.63, "Field": "Physician", "Page":1}
-{"X": 438.0, "Y": 663.13, "Field": "DateOfCollection", "Page":1}
-{"X": 438.0, "Y": 643.38, "Field": "TimeOfCollection", "Page":1}
-{"X": 438.0, "Y": 626.33, "Field": "PrintDate", "Page":1}
-{"X": 298.9, "Y": 505.45, "Field": "Citramalic", "Page":1}
-{"X": 298.9, "Y": 484.7, "Field": "5-Hydroxymethyl-2-furoic", "Page":1}
-{"X": 298.9, "Y": 463.95, "Field": "3-Oxoglutaric", "Page":1}
-{"X": 298.9, "Y": 443.2, "Field": "Furan-2,5-dicarboxylic", "Page":1}
-{"X": 298.9, "Y": 422.45, "Field": "Furancarbonylglycine", "Page":1}
-{"X": 298.9, "Y": 401.7, "Field": "Tartaric", "Page":1}
-{"X": 298.9, "Y": 380.95, "Field": "Arabinose", "Page":1}
-{"X": 298.9, "Y": 360.2, "Field": "Carboxycitric", "Page":1}
-{"X": 298.9, "Y": 339.45, "Field": "Tricarballylic", "Page":1}
-{"X": 298.9, "Y": 307.05, "Field": "Hippuric", "Page":1}
-{"X": 298.9, "Y": 286.3, "Field": "2-Hydroxyphenylacetic", "Page":1}
-{"X": 298.9, "Y": 265.55, "Field": "4-Hydroxybenzoic", "Page":1}
-{"X": 298.9, "Y": 244.8, "Field": "4-Hydroxyhippuric", "Page":1}
-{"X": 298.9, "Y": 224.05, "Field": "DHPPA", "Page":1}
-{"X": 298.9, "Y": 191.65, "Field": "4-Hydroxyphenylacetic", "Page":1}
-{"X": 298.9, "Y": 170.9, "Field": "HPHPA", "Page":1}
-{"X": 298.9, "Y": 150.15, "Field": "4-Cresol", "Page":1}
-{"X": 298.9, "Y": 129.4, "Field": "3-Indoleacetic", "Page":1}
-{"X": 298.9, "Y": 630.3, "Field": "Glyceric", "Page":2}
-{"X": 298.9, "Y": 609.55, "Field": "Glycolic", "Page":2}
-{"X": 298.9, "Y": 588.8, "Field": "Oxalic", "Page":2}
-{"X": 298.9, "Y": 533.2, "Field": "Lactic", "Page":2}
-{"X": 298.9, "Y": 512.45, "Field": "Pyruvic", "Page":2}
-{"X": 298.9, "Y": 456.85, "Field": "Succinic", "Page":2}
-{"X": 298.9, "Y": 436.1, "Field": "Fumaric", "Page":2}
-{"X": 298.9, "Y": 415.35, "Field": "Malic", "Page":2}
-{"X": 298.9, "Y": 394.6, "Field": "2-Oxoglutaric", "Page":2}
-{"X": 298.9, "Y": 373.85, "Field": "Aconitic", "Page":2}
-{"X": 298.9, "Y": 353.1, "Field": "Citric", "Page":2}
-{"X": 298.9, "Y": 297.5, "Field": "3-Methylglutaric", "Page":2}
-{"X": 298.9, "Y": 276.75, "Field": "3-Hydroxyglutaric", "Page":2}
-{"X": 298.9, "Y": 256, "Field": "3-Methylglutaconic", "Page":2}
-{"X": 298.9, "Y": 200.4, "Field": "Homovanillic(HVA)", "Page":2}
-{"X": 298.9, "Y": 179.65, "Field": "Vanillylmandelic(VMA)", "Page":2}
-{"X": 298.9, "Y": 158.9, "Field": "HVA/VMA_Ratio", "Page":2}
-{"X": 298.9, "Y": 126.5, "Field": "5-Hydroxyindoleacetic(5-HIAA)", "Page":2}
-{"X": 298.9, "Y": 105.75, "Field": "Quinolinic", "Page":2}
-{"X": 298.9, "Y": 85, "Field": "Kynurenic", "Page":2}
-{"X": 298.9, "Y": 64.25, "Field": "Quinolinic/5-HIAA_Ratio", "Page":2}
-{"X": 298.9, "Y": 630.3, "Field": "Uracil","Page":3}
-{"X": 298.9, "Y": 609.55, "Field": "Thymine","Page":3}
-{"X": 298.9, "Y": 553.95, "Field": "3-Hydroxybutyric","Page":3}
-{"X": 298.9, "Y": 533.2, "Field": "Acetoacetic","Page":3}
-{"X": 298.9, "Y": 512.45, "Field": "4-Hydroxybutyric","Page":3}
-{"X": 298.9, "Y": 491.7, "Field": "Ethylmalonic","Page":3}
-{"X": 298.9, "Y": 470.95, "Field": "Methylsuccinic","Page":3}
-{"X": 298.9, "Y": 450.2, "Field": "Adipic","Page":3}
-{"X": 298.9, "Y": 429.45, "Field": "Suberic","Page":3}
-{"X": 298.9, "Y": 408.7, "Field": "Sebacic","Page":3}
-{"X": 298.9, "Y": 353.1, "Field": "Methylmalonic","Page":3}
-{"X": 298.9, "Y": 320.7, "Field": "Pyridoxic_(B6)","Page":3}
-{"X": 298.9, "Y": 288.3, "Field": "Pantothenic","Page":3}
-{"X": 298.9, "Y": 255.9, "Field": "Glutaric","Page":3}
-{"X": 298.9, "Y": 223.5, "Field": "Ascorbic","Page":3}
-{"X": 298.9, "Y": 191.1, "Field": "3-Hydroxy-3-methylglutaric","Page":3}
-{"X": 298.9, "Y": 158.7, "Field": "N-Acetylcysteine_(NAC)","Page":3}
-{"X": 298.9, "Y": 126.3, "Field": "Methylcitric","Page":3}
-{"X": 298.9, "Y": 630.3, "Field": "Pyroglutamic","Page":4}
-{"X": 298.9, "Y": 609.55, "Field": "2-Hydroxybutyric","Page":4}
-{"X": 298.9, "Y": 577.15, "Field": "Orotic","Page":4}
-{"X": 298.9, "Y": 544.75, "Field": "2-Hydroxyhippuric","Page":4}
-{"X": 298.9, "Y": 461.65, "Field": "2-Hydroxyisovaleric","Page":4}
-{"X": 298.9, "Y": 440.9, "Field": "2-Oxoisovaleric","Page":4}
-{"X": 298.9, "Y": 420.15, "Field": "3-Methyl-2-oxovaleric","Page":4}
-{"X": 298.9, "Y": 399.4, "Field": "2-Hydroxyisocaproic","Page":4}
-{"X": 298.9, "Y": 378.65, "Field": "2-Oxoisocaproic","Page":4}
-{"X": 298.9, "Y": 357.9, "Field": "2-Oxo-4-methiolbutyric","Page":4}
-{"X": 298.9, "Y": 337.15, "Field": "Mandelic","Page":4}
-{"X": 298.9, "Y": 316.4, "Field": "Phenyllactic","Page":4}
-{"X": 298.9, "Y": 295.65, "Field": "Phenylpyruvic","Page":4}
-{"X": 298.9, "Y": 274.9, "Field": "Homogentisic","Page":4}
-{"X": 298.9, "Y": 254.15, "Field": "4-Hydroxyphenyllactic","Page":4}
-{"X": 298.9, "Y": 233.4, "Field": "N-Acetylaspartic","Page":4}
-{"X": 298.9, "Y": 212.65, "Field": "Malonic","Page":4}
-{"X": 298.9, "Y": 157.05, "Field": "Phosphoric","Page":4}
-{"X": 287.6, "Y": 660.3, "Field": "Creatinine","Page":5}
+{"X": 127.25, "Y": 679.63, "Field": "Requisition", "Page":1,"Type":"ReportDetails"}
+{"X": 126.0, "Y": 663.38, "Field": "Name", "Page":1,"Type":"ReportDetails"}
+{"X": 126.65, "Y": 643.38, "Field": "Age", "Page":1,"Type":"ReportDetails"}
+{"X": 128.65, "Y": 626.33, "Field": "Sex", "Page":1,"Type":"ReportDetails"}
+{"X": 438.0, "Y": 679.63, "Field": "Physician", "Page":1,"Type":"ReportDetails"}
+{"X": 438.0, "Y": 663.13, "Field": "DateOfCollection", "Page":1,"Type":"ReportDetails"}
+{"X": 438.0, "Y": 643.38, "Field": "TimeOfCollection", "Page":1,"Type":"ReportDetails"}
+{"X": 438.0, "Y": 626.33, "Field": "PrintDate", "Page":1,"Type":"ReportDetails"}
+{"X": 298.9, "Y": 505.45, "Field": "Citramalic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 484.7, "Field": "5-Hydroxymethyl-2-furoic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 463.95, "Field": "3-Oxoglutaric", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 443.2, "Field": "Furan-2,5-dicarboxylic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 422.45, "Field": "Furancarbonylglycine", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 401.7, "Field": "Tartaric", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 380.95, "Field": "Arabinose", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 360.2, "Field": "Carboxycitric", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 339.45, "Field": "Tricarballylic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 307.05, "Field": "Hippuric", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 286.3, "Field": "2-Hydroxyphenylacetic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 265.55, "Field": "4-Hydroxybenzoic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 244.8, "Field": "4-Hydroxyhippuric", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 224.05, "Field": "DHPPA", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 191.65, "Field": "4-Hydroxyphenylacetic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 170.9, "Field": "HPHPA", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 150.15, "Field": "4-Cresol", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 129.4, "Field": "3-Indoleacetic", "Page":1,"Type":"Measurement"}
+{"X": 298.9, "Y": 630.3, "Field": "Glyceric", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 609.55, "Field": "Glycolic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 588.8, "Field": "Oxalic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 533.2, "Field": "Lactic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 512.45, "Field": "Pyruvic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 456.85, "Field": "Succinic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 436.1, "Field": "Fumaric", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 415.35, "Field": "Malic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 394.6, "Field": "2-Oxoglutaric", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 373.85, "Field": "Aconitic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 353.1, "Field": "Citric", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 297.5, "Field": "3-Methylglutaric", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 276.75, "Field": "3-Hydroxyglutaric", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 256, "Field": "3-Methylglutaconic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 200.4, "Field": "Homovanillic(HVA)", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 179.65, "Field": "Vanillylmandelic(VMA)", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 158.9, "Field": "HVA/VMA_Ratio", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 126.5, "Field": "5-Hydroxyindoleacetic(5-HIAA)", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 105.75, "Field": "Quinolinic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 85, "Field": "Kynurenic", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 64.25, "Field": "Quinolinic/5-HIAA_Ratio", "Page":2,"Type":"Measurement"}
+{"X": 298.9, "Y": 630.3, "Field": "Uracil","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 609.55, "Field": "Thymine","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 553.95, "Field": "3-Hydroxybutyric","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 533.2, "Field": "Acetoacetic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 512.45, "Field": "4-Hydroxybutyric","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 491.7, "Field": "Ethylmalonic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 470.95, "Field": "Methylsuccinic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 450.2, "Field": "Adipic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 429.45, "Field": "Suberic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 408.7, "Field": "Sebacic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 353.1, "Field": "Methylmalonic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 320.7, "Field": "Pyridoxic_(B6)","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 288.3, "Field": "Pantothenic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 255.9, "Field": "Glutaric","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 223.5, "Field": "Ascorbic","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 191.1, "Field": "3-Hydroxy-3-methylglutaric","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 158.7, "Field": "N-Acetylcysteine_(NAC)","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 126.3, "Field": "Methylcitric","Page":3,"Type":"Measurement"}
+{"X": 298.9, "Y": 630.3, "Field": "Pyroglutamic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 609.55, "Field": "2-Hydroxybutyric","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 577.15, "Field": "Orotic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 544.75, "Field": "2-Hydroxyhippuric","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 461.65, "Field": "2-Hydroxyisovaleric","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 440.9, "Field": "2-Oxoisovaleric","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 420.15, "Field": "3-Methyl-2-oxovaleric","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 399.4, "Field": "2-Hydroxyisocaproic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 378.65, "Field": "2-Oxoisocaproic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 357.9, "Field": "2-Oxo-4-methiolbutyric","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 337.15, "Field": "Mandelic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 316.4, "Field": "Phenyllactic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 295.65, "Field": "Phenylpyruvic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 274.9, "Field": "Homogentisic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 254.15, "Field": "4-Hydroxyphenyllactic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 233.4, "Field": "N-Acetylaspartic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 212.65, "Field": "Malonic","Page":4,"Type":"Measurement"}
+{"X": 298.9, "Y": 157.05, "Field": "Phosphoric","Page":4,"Type":"Measurement"}
+{"X": 287.6, "Y": 660.3, "Field": "Creatinine","Page":5,"Type":"Measurement"}
