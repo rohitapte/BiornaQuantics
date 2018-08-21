@@ -10,13 +10,13 @@ import json
 import xlsxwriter
 from datetime import datetime
 pdfMappingDict={}
-with open('pdf_mapping.json','r') as fp:
+with open('pdf_mapping_CMEP.json','r') as fp:
     for line in fp:
         tempDict=json.loads(line.strip())
         pdfMappingDict[(tempDict['X'],tempDict['Y'],tempDict['Page'])]=tempDict['Field']
 
 labToInternalMappingDict={}
-with open('lab_to_internal_mapping.json') as fp:
+with open('lab_to_internal_mapping_CMEP.json') as fp:
     for line in fp:
         tempDict=json.loads(line.strip())
         labToInternalMappingDict[tempDict['LabName']]=tempDict['InternalName']

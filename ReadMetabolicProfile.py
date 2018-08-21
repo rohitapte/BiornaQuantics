@@ -7,8 +7,8 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 
-basepath='Complete Metabolic Energy Profile/'
-filename='CMEP_Aditya Baddrinath_2018.01.29.pdf'
+basepath='Food Sensitivities IgG4/'
+filename='Food_Tan Wan Qing_2017.10.25.pdf'
 file=os.path.join(basepath+filename)
 
 password=''
@@ -43,7 +43,7 @@ pageCount=0
 pages=PDFPage.create_pages(document)
 for page in pages:
     pageCount+=1
-    if pageCount==5:
+    if pageCount==1:
         # As the interpreter processes the page stored in PDFDocument object
         interpreter.process_page(page)
         # The device renders the layout from interpreter
