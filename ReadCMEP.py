@@ -46,6 +46,7 @@ for file in files:
                 if boundingBox in pdfMappingDict:
                     temp=pdfMappingDict[boundingBox]
                     valuesDict[temp]=lt_obj.get_text().strip()
+
         for key in pdfMappingDict:
             if key[2]==currentPage:
                 temp=pdfMappingDict[key]
@@ -80,8 +81,12 @@ for file in files:
     if sTime=='00:00 AM':
         sTime='12:00 AM'
     sMeasuredAt=sMeasuredAt+' '+sTime
-    measuredDate=datetime.strptime(sMeasuredAt,'%m/%d/%Y %I:%M %p')
-    sDateDisplay=measuredDate.isoformat()+'.000Z'
+    sDateDisplay=''
+    try:
+        measuredDate = datetime.strptime(sMeasuredAt, '%m/%d/%Y %I:%M %p')
+        sDateDisplay=measuredDate.isoformat()+'.000Z'
+    except ValueError:
+        print("Incorrect Date format for "+valuesDict['Name'])
     for key in valuesDict:
         if key not in ['Requisition','Name','Age','Sex','Physician','DateOfCollection','TimeOfCollection','PrintDate']:
             row+=1
@@ -90,6 +95,6 @@ for file in files:
             worksheet.write(row, 2, valuesDict[key])
             worksheet.write(row, 3,sDateDisplay)
     workbook.close()
-    break
+
 
     #print(file,valuesDict)
