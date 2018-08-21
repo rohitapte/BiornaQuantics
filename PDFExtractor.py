@@ -18,7 +18,7 @@ import xlsxwriter
 from datetime import datetime
 import sys
 
-def ExtractPDFToExcel(input_dir,output_dir,pdf_mapping_file_location,lab_to_internal_mapping_file_location):
+def ExtractCMEPPDFToExcel(input_dir,output_dir,pdf_mapping_file_location,lab_to_internal_mapping_file_location):
     files=[file for file in os.listdir(input_dir) if 'pdf' in file]
     if not os.path.isdir(output_dir):
         print("Cannot find output_dir "+output_dir+". Please check your parameters")
