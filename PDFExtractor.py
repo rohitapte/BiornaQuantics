@@ -18,11 +18,20 @@ import xlsxwriter
 from datetime import datetime
 import sys
 
+def clear_file_in_dir(file_with_path):
+    #clear the contents of the directory. this is done in 2 cases
+    #1. input files after the files are processed
+    #2. output files directory before processing
+    os.remove(file_with_path)
+
 def ExtractCMEPPDFToExcel(input_dir,output_dir,pdf_mapping_file_location,lab_to_internal_mapping_file_location):
     files=[file for file in os.listdir(input_dir) if 'pdf' in file]
     if not os.path.isdir(output_dir):
         print("Cannot find output_dir "+output_dir+". Please check your parameters")
         return
+    else:
+        for file in os.listdir(output_dir):
+            clear_file_in_dir(os.path.join(output_dir,file))
     if not os.path.exists(pdf_mapping_file_location):
         print("Cannot find pdf to measurement mapping file "+pdf_mapping_file_location+". Please check your parameters")
         return
@@ -112,3 +121,6 @@ def ExtractCMEPPDFToExcel(input_dir,output_dir,pdf_mapping_file_location,lab_to_
                 worksheet.write(row, 2, valuesDict[key])
                 worksheet.write(row, 3, sDateDisplay)
         workbook.close()
+        clear_file_in_dir(os.path.join(input_dir, file))
+
+ExtractCMEPPDFToExcel('Complete Metabolic Energy Profile','exceloutput','pdf_mapping_CMEP.json','lab_to_internal_mapping_CMEP.json')
