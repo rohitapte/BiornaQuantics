@@ -85,7 +85,7 @@ def ExtractCMEPPDFToExcel(input_dir,output_dir,pdf_mapping_file_location,lab_to_
                             if dist < min_dist:
                                 min_dist = dist
                                 valuesDict[temp] = lt_obj.get_text().strip()
-                        if min_dist > 20:
+                        if min_dist > 0:
                             print("Exact marker location not found for " + file + " field " + temp + ". Using nearest distance " + str(min_dist))
 
         fp.close()

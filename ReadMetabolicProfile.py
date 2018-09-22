@@ -7,8 +7,15 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 
-basepath='Food Sensitivities IgG4/'
-filename='Food_Tan Wan Qing_2017.10.25.pdf'
+basepath='GI-MAP/'
+#basepath='Complete Metabolic Energy Profile/'
+filename='GIMAPZ_Michelle Saddington_2018.07.30.pdf'
+#filename='FoodS_Abi Tyrrell_2016.06.02.pdf'
+#filename='CMEP_Aditya Baddrinath_2018.01.29.pdf'
+files=[file for file in os.listdir(basepath)]
+#print(files)
+#filename=files[2]
+print(filename)
 file=os.path.join(basepath+filename)
 
 password=''
@@ -43,7 +50,7 @@ pageCount=0
 pages=PDFPage.create_pages(document)
 for page in pages:
     pageCount+=1
-    if pageCount==1:
+    if pageCount==2:
         # As the interpreter processes the page stored in PDFDocument object
         interpreter.process_page(page)
         # The device renders the layout from interpreter
@@ -54,9 +61,9 @@ for page in pages:
                 boundingBox = (round(lt_obj.bbox[0], 2), round(lt_obj.bbox[1], 2))
                 temp=lt_obj.get_text().strip()
                 if len(temp)>0:
-                    print(temp,boundingBox)
+                    print(temp,boundingBox,lt_obj.bbox[2],lt_obj.bbox[3])
                     #print('{"Field":'+temp+',"X":'+str(boundingBox[0])+',"Y":'+str(boundingBox[1])+'}')
-
+        break
 # close the pdf file
 fp.close()
 
